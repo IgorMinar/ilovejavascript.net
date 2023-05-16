@@ -19,6 +19,13 @@ interface Env {
   env: Env
 ) {
   const url = new URL(request.url);
+
+  if (url.pathname == '/analytics') {
+    return globalThis.fetch(
+      'https://static.cloudflareinsights.com/beacon.min.js?token=af0db464d19c421cad29dbfb6b9e4fc9&spa=false'
+    );
+  }
+
   console.log('render SSR', url.href);
 
   // Get the root `index.html` content.
