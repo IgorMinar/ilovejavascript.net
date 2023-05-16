@@ -22,7 +22,7 @@ interface Env {
 
   if (url.pathname == '/analytics') {
     return globalThis.fetch(
-      'https://static.cloudflareinsights.com/beacon.min.js?token=af0db464d19c421cad29dbfb6b9e4fc9&spa=false'
+      'https://static.cloudflareinsights.com/beacon.min.js'
     );
   }
 
