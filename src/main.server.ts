@@ -37,11 +37,7 @@ interface Env {
     () => bootstrapApplication(AppComponent, config),
     { document, url: url.pathname }
   );
-  const strippedContent = content.replace(
-    /<link rel="stylesheet" href="styles\.[^\.]+.css">/,
-    ''
-  );
 
   // console.log("rendered SSR", content);
-  return new Response(strippedContent, indexResponse);
+  return new Response(content, indexResponse);
 };

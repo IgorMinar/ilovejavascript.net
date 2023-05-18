@@ -34,7 +34,7 @@
               "src/robots.txt",
               "src/_routes.json"
             ],
-            "styles": ["src/styles.css"],
+            "styles": [],
             "scripts": []
           },
           "configurations": {
@@ -88,7 +88,7 @@
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.css"],
+            "styles": [],
             "scripts": []
           }
         },
