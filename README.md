@@ -9,3 +9,5 @@ The application is server-side rendered and deployed globally via [Cloudflare Wo
 The whole Angular SSR + Cloudflare integration is still in early days, but is improving quickly. While the DX has a lot of room for improvement, the deployed code is on par with traditional Node.js-based Angular SSR setup.
 
 Deployed at [https://ilovejavascript.net](https://ilovejavascript.net).
+
+CHANGED!
